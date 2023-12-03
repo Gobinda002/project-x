@@ -27,3 +27,7 @@ table {
     margin-bottom: 20px;
     /* margin-left: 30%; */
 }
+.upper,.karnali,.sunkoshi,.bhotekoshi,.trisuli{
+    padding: 50px;
+    margin-left: 50px;
+}
