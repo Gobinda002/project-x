@@ -37,7 +37,7 @@ body{
     
 
 }
-.catbox :hover{
+.catbox:hover{
     color: #fff;
     background: #12fcdd;
 }
