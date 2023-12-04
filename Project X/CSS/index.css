@@ -82,7 +82,7 @@
 }
 .packages .viewmore{
     background-color: #fff;
-    border: 3px solid rgb(238, 114, 13);
+    border: 3px solid black;
     border-radius: 10px ;
     margin-left: 85%;
     margin-top: 3%;
@@ -90,10 +90,11 @@
     width: 8%;
     cursor: pointer;
     font-size: 17px;
+    color: black;
 }
 
 .viewmore:hover{
-    background-color: #FC7C12;
+    background-color: #000;
     color: #fff;
 }
 .packages .allpack{     
