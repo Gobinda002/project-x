@@ -38,8 +38,8 @@ body{
 
 }
 .catbox:hover{
-    color: #fff;
     background: #12fcdd;
+    color: white;
 }
 .category .catbox{
     color: black;
@@ -50,7 +50,8 @@ body{
     border-radius: 12px;
     text-align: center;
     padding-top: 12px;
-    margin-top: 10px;   
+    margin-top: 10px;
+    cursor: pointer;   
 }
 .desc{
     padding: 70px 0 0 60px;

@@ -90,7 +90,6 @@
     width: 8%;
     cursor: pointer;
     font-size: 17px;
-    color: black;
 }
 
 .viewmore:hover{
@@ -271,7 +270,8 @@
 
 .support-cs{
     display: flex;
-    margin: -40px 0 0  45vh;
+    margin-top: 90px;
+    margin-left: 500px;
     height: 45%;
     width: 45vh; 
     gap: 13%;
