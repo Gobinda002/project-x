@@ -91,6 +91,8 @@
     cursor: pointer;
     font-size: 17px;
     color: black;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .viewmore:hover{
@@ -392,7 +394,7 @@ footer{
 
 ul li{
     list-style: none;
-    margin-bottom: 12px;    
+    margin-bottom: 12px;   
 }
 .social .fa-brands{
     
