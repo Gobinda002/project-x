@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunto:wght@200;300;400;500;600;700;800&display=swap');
 
 :root{
-    --maincolor:#fc7c12;
+    --maincolor:#fc7c12;   /*Variable declare*/
 }
 *{
     font-family: 'Nunto',sans-serif;
