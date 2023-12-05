@@ -3,6 +3,7 @@
 :root{
     --maincolor:#fc7c12;   /*Variable declare*/
 }
+
 *{
     font-family: 'Nunto',sans-serif;
     padding: 0; margin: 0;    
