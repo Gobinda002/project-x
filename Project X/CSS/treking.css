@@ -81,6 +81,10 @@ h2{
   font-size: 2.5em;
   text-transform: capitalize;
 }
+img{
+  height: 80vh;
+  width: 100vh;
+}
 
 
 
