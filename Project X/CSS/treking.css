@@ -82,8 +82,9 @@ h2{
   text-transform: capitalize;
 }
 img{
-  height: 80vh;
+  height: 50vh;
   width: 100vh;
+  margin: 10vh 0 0 5vh;
 }
 
 
