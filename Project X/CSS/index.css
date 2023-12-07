@@ -423,3 +423,27 @@ hr{
 .copyright{
     text-align: center;
 }
+
+.main-container {
+    margin: 4rem auto;
+    max-width: 1000px;
+    margin-bottom: 4rem;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+.contact .main-container form {
+    width: 100%;
+    max-width: 600px;
+    color: hsl(0deg, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0 auto;
+}
