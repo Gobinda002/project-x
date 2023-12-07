@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunto:wght@200;300;400;500;600;700;800&display=swap');
 
+:root{
+    --maincolor:#fc7c12;   /*Variable declare*/
+}
 
 *{
     font-family: 'Nunto',sans-serif;
@@ -37,7 +40,7 @@
 
 .content h4{
     font-size: 35px;
-    color: #f0890f;
+    color:var(--maincolor);
 }
 .explobtn{
     color: grey;
@@ -59,7 +62,7 @@
     text-align: center;
     margin-top: 20px;    
     font-size: 50px;
-    color: #FC7C12;  
+    color: var(--maincolor); 
     
 }
 
@@ -72,7 +75,7 @@
 .heading span{
     font-size: 40px ;
     background: rgba(255, 165, 0, .2);
-    color: orange;
+    color: var(--maincolor);
     border-radius: 8px;
     padding: 3px 10px;
 }
@@ -82,7 +85,7 @@
 }
 .packages .viewmore{
     background-color: #fff;
-    border: 3px solid #FC7C12 ;
+    border: 3px solid var(--maincolor);
     border-radius: 10px ;
     margin-left: 85%;
     margin-top: 3%;
@@ -93,7 +96,7 @@
 }
 
 .viewmore:hover{
-    background-color: #FC7C12;
+    background-color: var(--maincolor);
     color: white;
 }
 .packages .allpack{     
@@ -112,7 +115,7 @@
 .pack{
     width: 500px;
     height: 320px;
-    border: 8px solid #FC7C12;
+    border: 8px solid var(--maincolor);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -156,7 +159,7 @@
     font-size: 18px;
     border-radius: 12px solid;
     color: #fff;
-    background:#FC7C12 ;
+    background:var(--maincolor);
     padding: 15px 0px 20px 25px;
     font-weight: 500;
     cursor: pointer;
@@ -211,7 +214,7 @@
     height: 60%;
     width: 23%;   
     background-size: contain;
-    border:5px solid orange ;
+    border:5px solid var(--maincolor);
     border-radius: 20px;
     
 }
@@ -236,7 +239,7 @@
 }
 
 .top{
-    background-color:#FC7C12;
+    background-color:var(--maincolor);
     height: 250px;
     width: 90%;    
     margin:55px 0 0 100px;
@@ -306,7 +309,7 @@
 }
 
 .bton:hover {
-    background-color: #FC7C12;
+    background-color: var(--maincolor);
     color: white;
 }
    
@@ -404,7 +407,7 @@ ul li{
     line-height: 40px;
     font-size: 20px;
     color: #000;
-    background: #FC7C12;
+    background: var(--maincolor);
     margin-right: 10px;
     cursor: pointer;
 }
