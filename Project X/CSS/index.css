@@ -210,7 +210,7 @@
     
     
 }
-.review-person{
+.rper .review-person{
     height: 60%;
     width: 23%;   
     background-size: contain;
@@ -273,6 +273,7 @@
 
 .support-cs{
     display: flex;
+    justify-content: center;
     margin-top: 90px;
     margin-left: 500px;
     height: 45%;
@@ -398,8 +399,7 @@ ul li{
     margin-bottom: 12px;
 
 }
-.social .fa-brands{
-    
+/* .social .fa-brands{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -416,6 +416,25 @@ ul li{
     transition: 1s;
     color: #fff;
     background-color: #000;
+} */
+
+.social a i{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: var(--maincolor);
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    transition: .5s linear;
+
+}
+
+.social a:hover i{
+    background: #000;
+    color: #fff;
+    transform: rotate(360deg);
 }
 hr{
     width: 90%;
