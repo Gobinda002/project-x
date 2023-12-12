@@ -31,3 +31,9 @@ table {
     padding: 50px;
     margin-left: 50px;
 }
+.checked {
+  color: orange;
+  /* font-size: 32px;
+  width: 48px;
+  height: 48px; */
+}
